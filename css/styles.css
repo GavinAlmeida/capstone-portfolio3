@@ -77,11 +77,13 @@ hr {
   position: absolute;
   right: 300px;
   top: 50px;
+  width: 10%
 }
 
 .bottom-cloud {
   position: absolute;
   left: 300px;
+  width: 10%
 }
 
 .boy {
@@ -92,8 +94,7 @@ hr {
 
 .mountain {
   margin-top: 250px;
-  height: 400px;
-  width: 600px;
+  width: 40%
 }
 
 .hello {
@@ -206,4 +207,3 @@ hr {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-
