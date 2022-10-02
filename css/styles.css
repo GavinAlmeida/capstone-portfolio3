@@ -3,7 +3,7 @@ body {
   font-family: 'Merriweather', sans-serif;
   margin: 0;
   text-align: center;
-
+  width: 100%;
 }
 
 h1 {
@@ -76,7 +76,7 @@ hr {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50 px;
+  top: 50px;
 }
 
 .bottom-cloud {
@@ -92,6 +92,8 @@ hr {
 
 .mountain {
   margin-top: 250px;
+  height: 400px;
+  width: 600px;
 }
 
 .hello {
@@ -124,9 +126,10 @@ hr {
 }
 
 .free-time {
-  width: 30%;
-  margin: 100px auto 100px 300px;
-  text-align: left;
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  margin-bottom: 180px;
 }
 
 .card {
@@ -135,14 +138,12 @@ hr {
   background-color: #333;
   border-radius: 10px;
   outline: 1px solid;
-  rgba(255, 255, 255, .5);
   outline-offset: -8px;
   box-shadow: 3px 3px 10px;
-  rgba(0, 0, 0, .1);
   overflow: hidden;
   position: relative;
-  margin-left: 1300px;
-  margin-bottom: 200px;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .card-image {
@@ -205,3 +206,4 @@ hr {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
